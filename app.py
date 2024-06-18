@@ -7,7 +7,6 @@ def get_response(user_input):
 # Configuração do aplicativo
 st.set_page_config(page_title="Chat com Sites", page_icon="")
 st.title("Chat com Site")
-
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
     AIMessage(content="Oi, sou seu assistente virtual, como posso te ajudar?")
